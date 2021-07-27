@@ -7,10 +7,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 /* Navbar */
 #navbar {
   display: flex;
-  background-color:#0a0a31;
+  background-color: rgba(0,0,0,0.6);
   color: white;
   justify-content: center;
   position: fixed;
@@ -39,11 +40,57 @@ body {
 }
 
 #navbar .navbar-container ul li:hover {
-  color: #B8860B;
+  color: #2F4F4F;
   cursor: pointer;
 }
 
 .logo {
   height: 40px;
   width: auto;
+}
+
+/* Showcase */
+#showcase {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(./img/bg.jpg) center center/cover;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#showcase .showcase-container h2 {
+  font-size: 4rem;
+  text-shadow:3px 4px 2px  #1a1e22;
+}   
+
+#showcase .showcase-container p {
+  margin: 15px 0;
+  font-size: 0.7rem;
+}
+
+/* Botão */
+.btn-primary {
+  background-image: linear-gradient(to bottom, #1a1e22, #2F4F4F  130%);
+  color: white;
+  text-transform: uppercase;
+  padding: 25px 70px;
+  border: none;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: filter 0.2s;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(to top, #1a1e22, #2F4F4F  130%);
+cursor: pointer;
 }
