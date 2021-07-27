@@ -136,7 +136,7 @@ color: white;
   border: 1px solid #CD6600;
   color: #CD6600;
   text-transform: uppercase;
-  padding: 18px 118px;
+  padding: 18px 105px;
   border-radius: 10px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -207,4 +207,23 @@ filter: drop-shadow(5px 5px 5px #363636);
   background-color: #4169E1;
   color: black;
   cursor: pointer;
+}
+
+ /* Final da Página */
+ .footer .form-cta {
+  margin-top: 0;
+}
+
+.footer {
+  padding: 2rem 0 2rem 0;
+  background: black;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.footer p {
+  margin-top:  2rem;
+  color: #757575;
+  font-size: 13px;
 }
