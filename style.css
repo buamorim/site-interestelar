@@ -40,7 +40,7 @@ body {
 }
 
 #navbar .navbar-container ul li:hover {
-  color: #CD6600;
+  color: #cd6600;
   cursor: pointer;
 }
 
@@ -150,4 +150,61 @@ color: white;
   cursor: pointer;
 }
 
+/* Terceira Parte -  Video*/
+.section-video {
+  background: black;
+  padding: 1rem 4rem;
+  border-top: 4px solid #1a1e22;
+}
 
+.section-video h1 {
+font-size: 35px;
+margin-bottom: 16px;
+color: #4169E1;
+}
+
+.section-video p {
+font-size: 20px;
+color: white;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.img-astro {
+  position: relative;
+}
+
+.img-astro img{
+position: relative;
+z-index: 1;
+filter: drop-shadow(5px 5px 5px #363636);
+}
+
+.video {
+  position: absolute;
+  width: 790px; 
+  top: 120px;
+  left: 70px;
+}
+
+.btn-three {
+  background-color: transparent;
+  border: 1px solid  #4169E1;
+  color: #4169E1;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: filter 0.2s;
+  margin-top: 25px;
+}
+
+.btn-three:hover {
+  background-color: #4169E1;
+  color: black;
+  cursor: pointer;
+}
